@@ -1,8 +1,6 @@
 const request = require('supertest');
 const app = require('../src/server');
 const usersModel = require('../src/models/users.model');
-const Users = require('../src/models/users.model');
-
 let server;
 
 beforeAll((done) => {
